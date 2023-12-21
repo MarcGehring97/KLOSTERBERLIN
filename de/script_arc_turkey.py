@@ -30,7 +30,7 @@ with open("arc_turkey.html", "w") as f:
 
 
 
-with open("arc_turkey_de.html", "r") as f:
+with open("arc_turkey.html", "r") as f:
     html_file = f.read()
 
 print(html_file)
@@ -50,7 +50,7 @@ print(images)
 
 html_file = html_file.replace("<!-- Placeholder for images -->", images)
 
-with open("arc_turkey_de.html", "w") as f:
+with open("arc_turkey.html", "w") as f:
     f.write(html_file)
 
 

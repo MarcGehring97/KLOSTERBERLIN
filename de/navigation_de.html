@@ -2,25 +2,25 @@
 <link rel="stylesheet" href="css/style.css">
 <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
     <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-        <li><a href="index_de.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="has-children">
-        <a href="archive_de.html">Archiv</a>
+        <a href="archive.html">Archiv</a>
         <ul class="dropdown">
-            <li><a href="arc_turkey_de.html">Entdeckt in der Türkei 2022</a></li>
-            <li><a href="arc_germany_de.html">Entdeckt in Deutschland 2023</a></li>
+            <li><a href="arc_turkey.html">Entdeckt in der Türkei 2022</a></li>
+            <li><a href="arc_germany.html">Entdeckt in Deutschland 2023</a></li>
         </ul>
         </li>
         <!--
         <li class="has-children">
-        <a href="gallery_de.html">Galerie</a>
+        <a href="gallery.html">Galerie</a>
         <ul class="dropdown" id="gallery">
-            <li><a href="gal_turkey_de.html">Türkei 2022</a></li>
-            <li><a href="gal_germany_de.html">Deutschland 2023</a></li>
+            <li><a href="gal_turkey.html">Türkei 2022</a></li>
+            <li><a href="gal_germany.html">Deutschland 2023</a></li>
         </ul>
         -->
         </li>
-        <li><a href="about_de.html">Über Uns</a></li>
-        <li><a href="requests_de.html">Anfragen</a></li>
+        <li><a href="about.html">Über Uns</a></li>
+        <li><a href="requests.html">Anfragen</a></li>
         <!--
         <li class="has-children">
         <a href="#">Sub Menu</a>
@@ -41,7 +41,7 @@
             var link = $(this).attr("href");
             if (currentPage === link) {
                 console.log(currentPage)
-                if (currentPage == "arc_turkey_de.html" || currentPage == "arc_germany_de.html") {
+                if (currentPage == "arc_turkey.html" || currentPage == "arc_germany.html") {
                     $(this).parent().parent().parent().addClass("active");
                 } else {
                     $(this).parent().addClass("active");
