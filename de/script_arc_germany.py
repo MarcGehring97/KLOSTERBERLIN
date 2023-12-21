@@ -1,6 +1,6 @@
 import os
 
-images_folder = "images/arc_germany"
+images_folder = "/images/arc_germany"
 
 with open("arc_germany.html", "r") as f:
     html_file = f.read()
