@@ -124,7 +124,7 @@
 }
 
 // Keep as a separate element so folks can easily override it with another icon
-// or Image file as needed.
+// or image file as needed.
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
@@ -231,7 +231,7 @@
   }
 
   .navbar-toggler-icon {
-    background-Image: $navbar-light-toggler-icon-bg;
+    background-image: $navbar-light-toggler-icon-bg;
   }
 
   .navbar-text {
@@ -283,7 +283,7 @@
   }
 
   .navbar-toggler-icon {
-    background-Image: $navbar-dark-toggler-icon-bg;
+    background-image: $navbar-dark-toggler-icon-bg;
   }
 
   .navbar-text {

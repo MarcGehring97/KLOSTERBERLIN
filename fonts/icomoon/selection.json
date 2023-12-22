@@ -1717,7 +1717,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "Image",
+          "image",
           "photo",
           "picture-o"
         ],
@@ -1726,7 +1726,7 @@
       },
       "attrs": [],
       "properties": {
-        "name": "Image, photo, picture-o",
+        "name": "image, photo, picture-o",
         "id": 63,
         "order": 919,
         "prevSize": 28,
@@ -11164,7 +11164,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "file-Image-o",
+          "file-image-o",
           "file-photo-o",
           "file-picture-o"
         ],
@@ -11173,7 +11173,7 @@
       },
       "attrs": [],
       "properties": {
-        "name": "file-Image-o, file-photo-o, file-picture-o",
+        "name": "file-image-o, file-photo-o, file-picture-o",
         "id": 411,
         "order": 1267,
         "prevSize": 28,
@@ -21316,19 +21316,19 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "broken_Image"
+          "broken_image"
         ],
         "defaultCode": 58285,
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "ligatures": "broken_Image",
+        "ligatures": "broken_image",
         "id": 110,
         "order": 121,
         "prevSize": 24,
         "code": 58285,
-        "name": "broken_Image"
+        "name": "broken_image"
       },
       "setIdx": 2,
       "setId": 2,
@@ -28963,7 +28963,7 @@
       },
       "attrs": [],
       "properties": {
-        "ligatures": "Image, insert_photo, photo",
+        "ligatures": "image, insert_photo, photo",
         "id": 393,
         "order": 404,
         "prevSize": 24,
@@ -28983,19 +28983,19 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "Image_aspect_ratio"
+          "image_aspect_ratio"
         ],
         "defaultCode": 58357,
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "ligatures": "Image_aspect_ratio",
+        "ligatures": "image_aspect_ratio",
         "id": 394,
         "order": 405,
         "prevSize": 24,
         "code": 58357,
-        "name": "Image_aspect_ratio"
+        "name": "image_aspect_ratio"
       },
       "setIdx": 2,
       "setId": 2,
@@ -41175,7 +41175,7 @@
       },
       "embed": false
     },
-    "ImagePref": {
+    "imagePref": {
       "prefix": "icon-",
       "png": true,
       "useClassSelector": true,

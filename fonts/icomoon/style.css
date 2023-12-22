@@ -228,7 +228,7 @@
 .icon-video-camera:before {
   content: "\f03d";
 }
-.icon-Image:before {
+.icon-image:before {
   content: "\f03e";
 }
 .icon-photo:before {
@@ -1425,7 +1425,7 @@
 .icon-file-powerpoint-o:before {
   content: "\f1c4";
 }
-.icon-file-Image-o:before {
+.icon-file-image-o:before {
   content: "\f1c5";
 }
 .icon-file-photo-o:before {
@@ -2712,7 +2712,7 @@
 .icon-brightness_auto:before {
   content: "\e1ab";
 }
-.icon-broken_Image:before {
+.icon-broken_image:before {
   content: "\e3ad";
 }
 .icon-brush:before {
@@ -3564,7 +3564,7 @@
 .icon-photo2:before {
   content: "\e410";
 }
-.icon-Image_aspect_ratio:before {
+.icon-image_aspect_ratio:before {
   content: "\e3f5";
 }
 .icon-import_contacts:before {

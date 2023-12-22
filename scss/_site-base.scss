@@ -199,7 +199,7 @@ a {
 		}
 	}
 
-	.bg-Image-md-height {
+	.bg-image-md-height {
 		@include media-breakpoint-down(md) {
 			height: 300px!important;
 		}
@@ -209,7 +209,7 @@ a {
 
 
 
-.bg-Image {
+.bg-image {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;

@@ -39,7 +39,7 @@
     color: color-yiq($active-background);
     background-color: $active-background;
     @if $enable-gradients {
-      background-Image: none; // Remove the gradient for the pressed/active state
+      background-image: none; // Remove the gradient for the pressed/active state
     }
     border-color: $active-border;
 
@@ -57,7 +57,7 @@
 @mixin button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
   color: $color;
   background-color: transparent;
-  background-Image: none;
+  background-image: none;
   border-color: $color;
 
   &:hover {
