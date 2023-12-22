@@ -1,26 +1,26 @@
 import os
 
-images_folder = "/images/arc_germany"
+Images_folder = "/images/arc_germany"
 
 with open("arc_germany.html", "r") as f:
     html_file = f.read()
 
 print(html_file)
 
-images = ""
+Images = ""
 
-for filename in os.listdir(images_folder):
+for filename in os.listdir(Images_folder):
     if filename.endswith(".jpg") or filename.endswith(".jpeg"):
-        image_path = os.path.join(images_folder, filename)
-        images += f'''
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="{image_path}" data-sub-html="<h4></h4><p></p>">
-            <a href="#"><img src="{image_path}" alt="IMage" class="img-fluid"></a>
+        Image_path = os.path.join(Images_folder, filename)
+        Images += f'''
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="{Image_path}" data-sub-html="<h4></h4><p></p>">
+            <a href="#"><img src="{Image_path}" alt="Image" class="img-fluid"></a>
           </div>
         '''
 
-print(images)
+print(Images)
 
-html_file = html_file.replace("<!-- Placeholder for images -->", images)
+html_file = html_file.replace("<!-- Placeholder for Images -->", Images)
 
 with open("arc_germany.html", "w") as f:
     f.write(html_file)
@@ -35,20 +35,20 @@ with open("arc_germany.html", "r") as f:
 
 print(html_file)
 
-images = ""
+Images = ""
 
-for filename in os.listdir(images_folder):
+for filename in os.listdir(Images_folder):
     if filename.endswith(".jpg") or filename.endswith(".jpeg"):
-        image_path = os.path.join(images_folder, filename)
-        images += f'''
-          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="{image_path}" data-sub-html="<h4></h4><p></p>">
-            <a href="#"><img src="{image_path}" alt="IMage" class="img-fluid"></a>
+        Image_path = os.path.join(Images_folder, filename)
+        Images += f'''
+          <div class="col-sm-6 col-md-4 col-lg-3 col-xl-3 item" data-aos="fade" data-src="{Image_path}" data-sub-html="<h4></h4><p></p>">
+            <a href="#"><img src="{Image_path}" alt="Image" class="img-fluid"></a>
           </div>
         '''
 
-print(images)
+print(Images)
 
-html_file = html_file.replace("<!-- Placeholder for images -->", images)
+html_file = html_file.replace("<!-- Placeholder for Images -->", Images)
 
 with open("arc_germany.html", "w") as f:
     f.write(html_file)

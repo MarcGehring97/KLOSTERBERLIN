@@ -479,7 +479,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   content: "\e01a";
 }
 
-.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap, .lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-image {
+.lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-img-wrap, .lg-outer.lg-css3.lg-zoom-dragging .lg-item.lg-complete.lg-zoomable .lg-Image {
   -webkit-transition-duration: 0s;
   transition-duration: 0s;
 }
@@ -502,7 +502,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-.lg-outer .lg-item.lg-complete.lg-zoomable .lg-image {
+.lg-outer .lg-item.lg-complete.lg-zoomable .lg-Image {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.15s !important;
@@ -861,12 +861,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 0;
 }
 .lg-outer .lg-item.lg-complete {
-  background-image: none;
+  background-Image: none;
 }
 .lg-outer .lg-item.lg-current {
   z-index: 1060;
 }
-.lg-outer .lg-image {
+.lg-outer .lg-Image {
   display: inline-block;
   vertical-align: middle;
   max-width: 100%;

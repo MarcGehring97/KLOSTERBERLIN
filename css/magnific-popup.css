@@ -55,7 +55,7 @@
 .mfp-ajax-cur {
   cursor: progress; }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-Image-holder .mfp-close {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out; }
@@ -146,7 +146,7 @@ button::-moz-focus-inner {
 .mfp-close-btn-in .mfp-close {
   color: #333; }
 
-.mfp-image-holder .mfp-close,
+.mfp-Image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
   color: #FFF;
   right: -6px;
@@ -241,7 +241,7 @@ button::-moz-focus-inner {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000; }
 
-/* Main image in popup */
+/* Main Image in popup */
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -252,7 +252,7 @@ img.mfp-img {
   padding: 40px 0 40px;
   margin: 0 auto; }
 
-/* The shadow behind the image */
+/* The shadow behind the Image */
 .mfp-figure {
   line-height: 0; }
   .mfp-figure:after {
@@ -291,17 +291,17 @@ img.mfp-img {
   word-wrap: break-word;
   padding-right: 36px; }
 
-.mfp-image-holder .mfp-content {
+.mfp-Image-holder .mfp-content {
   max-width: 100%; }
 
-.mfp-gallery .mfp-image-holder .mfp-figure {
+.mfp-gallery .mfp-Image-holder .mfp-figure {
   cursor: pointer; }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
-       * Remove all paddings around the image on small screen
+       * Remove all paddings around the Image on small screen
        */
-  .mfp-img-mobile .mfp-image-holder {
+  .mfp-img-mobile .mfp-Image-holder {
     padding-left: 0;
     padding-right: 0; }
   .mfp-img-mobile img.mfp-img {

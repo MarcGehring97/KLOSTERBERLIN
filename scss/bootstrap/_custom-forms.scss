@@ -105,7 +105,7 @@
       @include gradient-bg($custom-control-indicator-checked-bg);
     }
     &::after {
-      background-image: $custom-checkbox-indicator-icon-checked;
+      background-Image: $custom-checkbox-indicator-icon-checked;
     }
   }
 
@@ -115,7 +115,7 @@
       @include box-shadow($custom-checkbox-indicator-indeterminate-box-shadow);
     }
     &::after {
-      background-image: $custom-checkbox-indicator-icon-indeterminate;
+      background-Image: $custom-checkbox-indicator-icon-indeterminate;
     }
   }
 
@@ -143,7 +143,7 @@
       @include gradient-bg($custom-control-indicator-checked-bg);
     }
     &::after {
-      background-image: $custom-radio-indicator-icon-checked;
+      background-Image: $custom-radio-indicator-icon-checked;
     }
   }
 
@@ -204,7 +204,7 @@
   &[size]:not([size="1"]) {
     height: auto;
     padding-right: $custom-select-padding-x;
-    background-image: none;
+    background-Image: none;
   }
 
   &:disabled {
